@@ -9,7 +9,7 @@ gem 'jekyll-paginate'
 gem 'jekyll-redirect-from'
 gem 'puma', '>= 5.6.4'
 gem 'pry', group: :test
-gem 'rack', '~> 3.0', '>= 3.0.0'
+gem 'rack', '~> 2.2', '>= 2.2.19'
 gem 'rack-jekyll'
 gem 'rack-ssl-enforcer'
 gem 'rake'
@@ -19,16 +19,16 @@ gem 'rubocop', '>= 0.86.0', group: :test
 
 # All of this is for Slate / middleman
 
-gem "middleman", "~> 4.4", ">= 4.4.0"
+gem "middleman", "~> 4.1", ">= 4.1.11"
 
 # For syntax highlighting
-gem "middleman-syntax"
+gem "middleman-syntax", ">= 3.3.0"
 
 # Plugin for middleman to generate GitHub pages
 gem 'middleman-gh-pages'
 
 # Live-reloading plugin
-gem "middleman-livereload"
+gem "middleman-livereload", ">= 3.5.0"
 
 # Needed for Slate / middleman
 gem 'redcarpet', '>= 3.5.1'
